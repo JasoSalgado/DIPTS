@@ -7,6 +7,8 @@
 - Comments
 - Posts
 - Categories
+- API
+- API Documentation
 - Deploy to Heroku
 
 
