@@ -26,6 +26,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third-party apps
+    'rest_framework',
+    'drf_yasg',
+    # My apps
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -107,3 +112,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = './static/'
+
+# Model user is controlled by the app users.User
+AUTH_USER_MODEL = 'users.User'
