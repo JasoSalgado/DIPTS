@@ -28,9 +28,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third-party apps
     'rest_framework',
+    'django_filters',
     'drf_yasg',
     # My apps
     'users',
+    'categories',
 ]
 
 MIDDLEWARE = [
