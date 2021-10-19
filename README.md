@@ -9,6 +9,7 @@
 - Categories
 - API
 - API Documentation
+- Rest Framework Simple JWT
 - Deploy to Heroku
 
 
